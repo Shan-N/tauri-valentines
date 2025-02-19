@@ -103,7 +103,7 @@ const Home = () => {
                                         whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                     >
-                                        Yesss😘
+                                        Yesss💗
                                     </motion.button>
                                 </AlertDialogTrigger>
                                 <AlertDialogContent>
@@ -136,7 +136,7 @@ const Home = () => {
                                     </AlertDialogDescription>
                                     </AlertDialogHeader>
                                     <AlertDialogFooter>
-                                    <AlertDialogCancel>I&apos;ll change your mind babe😈</AlertDialogCancel>
+                                    <AlertDialogCancel>I&apos;ll change your mind babe😂</AlertDialogCancel>
                                     </AlertDialogFooter>
                                 </AlertDialogContent>
                             </AlertDialog>
