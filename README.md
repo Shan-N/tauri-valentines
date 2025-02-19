@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Valentine's Tauri App
 
-## Getting Started
+A beautiful **Valentine's-themed** desktop application built using **Tauri** and **Next.js**. Express love through interactive messages, animations, and personalized notes!
 
-First, run the development server:
+## Features
+- ❤️ **Romantic UI**: A visually appealing Valentine's theme
+- 💌 **Personalized Messages**: Send and save heartfelt notes
+- ✨ **Animated Effects**: Smooth transitions and festive animations
+- 📦 **Lightweight**: Efficient and optimized with Tauri
 
+## Tech Stack
+- **Tauri**: Lightweight, fast, and secure desktop app framework
+- **Next.js**: React-based web framework for UI development
+- **Tailwind CSS**: Beautiful styling with utility-first approach
+
+## Installation
+
+### Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (Latest LTS version recommended)
+- [Rust](https://www.rust-lang.org/tools/install)
+- [Tauri CLI](https://tauri.app/v1/guides/getting-started/prerequisites/)
+
+### Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Shan-N/tauri-valentines.git .
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install Dependencies
+```bash
+npm install  # or yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Run the App in Development Mode
+```bash
+npm run dev  # Starts Next.js
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Build and Run the Tauri App
+```bash
+npm run tauri dev
+```
 
-## Learn More
+## Building for Production
+To package the app as a standalone executable:
+```bash
+npm run tauri build
+```
+Find the generated build in the `src-tauri/target/release/` directory.
 
-To learn more about Next.js, take a look at the following resources:
+## Customization
+- Modify `pages/index.tsx` for UI tweaks
+- Customize styles in `styles/globals.css`
+- Adjust Tauri settings in `src-tauri/tauri.conf.json`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
+Pull requests are welcome! Feel free to open an issue for feature requests or bug reports.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
